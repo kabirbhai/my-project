@@ -44,26 +44,30 @@ ul li a{
   /* -------------------------------
   This is Home section
   -----------------------------------  */
+.home-left h1{
+    font-size: 35px;
+}
 .home{
     border: 2px solid red;
     height: 80vh;
     display: flex;
+    font-family: 'Comfortaa', cursive;
     /* justify-content: center;
     align-items: center; */
 }
 .home-left{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 50%;
     height: 100%;
     padding: 120px;
 }
 .home-right{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 50%;
     height: 100%;
 }
 
 .home-btn{
-    margin-top: 5px;
+    margin-top: 9px;
     padding:7px 5px ;
 }
