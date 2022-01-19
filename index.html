@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeWithKobir</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f893aa7ee.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,20 +16,20 @@
         --------------------------------------->
     <header>
         <nav class="navbar">
-            <div class="logo"><a href="#">CodeWithKobir</a></div>
+            <div class="logo"><a href="/"><span>CodeWithKobir</span></a></div>
             <div class="nav-right">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Course</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contac</a></li>
-                    <button class="btn"><a href="#">login</a></button>
-                    <button class="btn"><a href="#">signup</a></button>
+                    <button class="btn"><span><a href="#">login</a></span></button>
+                    <button class="btn"><span><a href="#">signup</a></span></button>
                 </ul>
             </div>
         </nav>
     </header>
-
+ <hr>
     <!----------------------------------
                 header end 
     ------------------------------------>
@@ -38,15 +39,63 @@
                 <div class="home-left">
                     <h1>Welcome to <span>CodeWithKobir</span></h1>
                     <p>Confused on which course to take? I have got you covered. Browse courses and find out the best course for you. Its free! Code With Harry is my attempt to teach basics and those coding techniques to people in short time which took me ages to learn.</p>
-                    <button class="home-btn"><a href="#">Free course</a></button>
-                    <button class="home-btn"><a href="#">Explore blog</a></button>
+                    <button class="btn-2"><a href="#">Free course</a></button>
+                    <button class="btn-2"><a href="#">Explore blog</a></button>
                 </div>
                 <div class="home-right">
-                    <img src="images/home.jpg" alt="">
+                    <img width="100%" src="images/home-1.png" alt="">
                 </div>
             </div>
             </section>
+
+            <!---------------------------------
+                 Home section end 
+            ----------------------------------->
+            <section>
+                <h1 class="h1">Recommended Courses</h1>
+                <div id="course">
+
+                    <div class=" course">
+                        <img width="100%" src="images/course-1.jpg" alt="">
+                        <div class="course-item">
+                            <small>Free course</small>
+                            <h3>Tailwind Course In Hindi</h3>
+                            <p>Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free!</p>
+                            <button class="btn-3"><a href="#">Start Watching</a></button>
+                        </div>
+                    </div>
+                    <div class="course-mid course">
+                        <img width="100%" src="images/course-2.jpg" alt="">
+                        <div class="course-item">
+                            <small>Free course</small>
+                            <h3>React Js Tutorials For Beginners</h3>
+                            <p>Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free</p>
+                            <button class="btn-3"><a href="#">Start Watching</a></button>
+                        </div>
+                    </div>
+                    <div class="course-right course">
+                        <img width="100%" src="images/course-2.jpg" alt="">
+                        <div class="course-item">
+                            <small>Free course</small>
+                            <h3>Data Structures and Algorithms</h3>
+                            <p>Complete Tailwind CSS Course by CodeWithHarry in Hindi - Learn Tailwind CSS from scratch for free</p>
+                            <button class="btn-3"><a href="#">Start Watching</a></button>
+                        </div>
+                    </div>
+                </div>
+                </section>
     </main>
+
+    <footer>
+            <h3><span>CodeWithKobir</span></h3>       
+        <p>copywrite &copy; 2022 CodeWithKobir.com</p>      
+        <div class="footer-icon">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""></a>
+        </div>
+    </footer>
 </body>
 
 </html>

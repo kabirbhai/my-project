@@ -1,39 +1,62 @@
+/*--------------------------------
+         import google font
+-------------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-
+/*------------
+ css reset
+ ------------------------ */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* -------------------
+navigation style
+--------------------------- */
 .navbar{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 33px 20px;
     font-family: 'Varela Round', sans-serif;
     align-items: center;
+    /* background-color: skyblue; */
 }
 .logo a{
     text-decoration: none;
+    font-size: 25px;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 ul{
     display: flex;
 }
 ul li{
-    margin-right: 33px;
+    margin-right: 20px;
     list-style: none;
 }
 ul li a{
-    text-decoration: none;
+    color: black;
 }
-.btn{
-    margin-right: 16px;
+ul li a:hover{
+    color: rgba(77, 77, 241, 0.966);
+}
+.btn {
+    margin-right: 10px;
+    padding:4px 10px;
+    margin-top: -7px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgba(77, 77, 241, 0.966);
+}
+span{
+    color: rgba(77, 77, 241, 0.966);
 }
 
   /* -------------------------
@@ -44,22 +67,23 @@ ul li a{
   /* -------------------------------
   This is Home section
   -----------------------------------  */
-.home-left h1{
-    font-size: 35px;
-}
+
 .home{
-    border: 2px solid red;
     height: 80vh;
     display: flex;
     font-family: 'Comfortaa', cursive;
-    /* justify-content: center;
-    align-items: center; */
+    margin-top: 10px;
+
+}
+.home-left h1{
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 .home-left{
     /* border: 1px solid green; */
     width: 50%;
     height: 100%;
-    padding: 120px;
+    padding: 85px;
 }
 .home-right{
     /* border: 1px solid green; */
@@ -67,7 +91,91 @@ ul li a{
     height: 100%;
 }
 
-.home-btn{
-    margin-top: 9px;
+.btn-2{
+    margin-top: 30px;
     padding:7px 5px ;
+    background-color: rgba(77, 77, 241, 0.966);
+    border-radius: 10px;
+}
+
+.btn-2:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+/* --------------------
+course section start 
+-------------------------- */
+
+#course{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    
+}
+#course img{
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.h1{
+    text-align: center;
+    margin: 40px 0;
+    font-size: 34px;
+    font-family: 'Varela Round', sans-serif;
+}
+.course-item{
+    padding-left: 9px;
+}
+.btn-3{
+    margin-top: 60px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(77, 77, 241, 0.966);
+    color: skyblue;
+}
+.btn-3 a{
+    color: white;
+}
+.btn-3:hover{
+    background-color: rgb(106, 106, 243);
+    cursor: pointer;
+}
+.course{
+
+    width: 300px;
+    height: 450px;
+    box-shadow: 10px 10px 20px rgb(226, 169, 169);
+    border-radius: 15px;
+}
+.course h3{
+    margin: 15px 0px;
+}
+small{
+    font-size: 15px;
+}
+ 
+/* ------------------------------course section end  */
+
+footer{
+    background-color: rgba(12, 3, 17, 0.753);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer p{
+    padding: 10px 0px;
+}
+.footer-icon{
+    color: whitesmoke;
+}
+.fab{
+    color: whitesmoke;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+.fab:hover{
+    color: rgb(106, 106, 243);;
 }
